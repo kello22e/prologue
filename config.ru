@@ -1,3 +1,3 @@
-require '.views'
-
+require './app.rb'
+require 'sinatra'
 run App
