@@ -1,6 +1,6 @@
 require 'sinatra'
 
-get '/' do
+get '/public' do
   erb: index
   #File.read(File.join('public', 'index.html'))
 end
